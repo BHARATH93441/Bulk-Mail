@@ -40,7 +40,7 @@ app.post("/sendemail", function (req, res) {
         }
         catch (error) {
             reject("Failed")
-        }
+        } 
     }).then(function(){
         res.send(true)
     }).catch(function(){
