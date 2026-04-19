@@ -16,7 +16,7 @@ const transporter = nodemailer.createTransport({
         pass: process.env.EMAIL_PASS,
     },
 });
-app,get("/test", function (req, res) {
+app.get("/test", function (req, res) {
     res.send("API is working")
 })
 
